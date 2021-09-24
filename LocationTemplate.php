@@ -55,7 +55,7 @@ function outputLocationInfo() {
 function outputSingleImage($row) {
    echo '<div class="item">';
    echo '<div class="image">';
-   echo '<img  src="images/LocationImages/' . $row['ImageName'] .'.jpg">';
+   echo '<img  src="/GroupProject/Images/LocationImages/' . $row['ImageName'] .'.jpg">';
    echo '<p class="description">';
    echo $row['ImageCaption'];
    echo '</p>';
