@@ -108,6 +108,7 @@ function outputActivities($row) {
    <main class="ui container">
       <div class="ui secondary segment">
          <h1>Locations</h1>
+         <p><a href="/GroupProject/HomePage.html">Home</a>  |  <a href="/GroupProject/Travel.php">Directory</a></p>
       </div>
       <div class="ui segment">
          <div class="ui grid">
