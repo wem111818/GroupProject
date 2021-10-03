@@ -15,7 +15,7 @@
             echo '<a href="Locations.php?id=' . $row['LocationID'] . '" class="';
             if (isset($_GET['id']) && $_GET['id'] == $row['LocationID']) echo 'active ';
             echo 'item">';
-            echo $row['LocationCity'] . ',' . $row['LocationCountry'] . '</a><br/>';
+            echo $row['LocationCity'] . ', ' . $row['LocationCountry'] . '</a><br/>';
          }
          $pdo = null;
       }
