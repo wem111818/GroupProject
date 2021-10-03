@@ -1,7 +1,7 @@
 header, footer, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
 {
-   margin: 0em;
-   padding: 0em;
+   margin: .25em;
+   padding: .25em;
    font-size: 100%;
    vertical-align: baseline;
    border: 0;

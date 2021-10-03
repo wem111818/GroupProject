@@ -40,7 +40,7 @@ INSERT INTO Locations (LocationID, LocationCity, LocationState, LocationCountry,
 (6, 'Sydney', 'New South Wales', 'Australia', 'Sydney is a city located on the southeastern coast of Australia.  Featuring world class seafood, shopping and a history going back to 1788.'),
 (7, 'Paris', 'Île-de-france', 'France', 'Paris is the largest city in France. It is the hub for French economics, politics, traffic, and culture. With a plethora of museums and art, you’ll fall in love with the culture and everything this city has to offer.'),
 (8, 'Brussels', 'Brussels-Capital Region', 'Belgium', 'Brussels, known as the European Quarter, is considered the capital of Europe. It is the administrative, commercial, and financial heart of Belgium. .'),
-(9, 'Frankfurk', 'Hesse', 'Germany', '\r\nFrankfurt is the most populated city in Germany. Located in the state of Hesse, it is referred to as an “alpha world city” as it is the global hub for commerce, culture, education, and tourism.\r\n');
+(9, 'Frankfurt', 'Hesse', 'Germany', '\r\nFrankfurt is the most populated city in Germany. Located in the state of Hesse, it is referred to as an “alpha world city” as it is the global hub for commerce, culture, education, and tourism.\r\n');
 # 9 records
 
 #
