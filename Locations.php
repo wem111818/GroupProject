@@ -9,7 +9,7 @@ function outputLocations() {
    try {
          $pdo = new PDO(DBCONNSTRING,DBUSER,DBPASS);
          $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-         $sql = "select * from Locations order by LocationCountry, LocationCity limit 0,30";
+         $sql = "select * from Locations order by LocationCity limit 0,30";
          $result = $pdo->query($sql);
          while ($row = $result->fetch()) {
             echo '<a href="' . $_SERVER["SCRIPT_NAME"] . '?id=' . $row['LocationID'] . '" class="';
